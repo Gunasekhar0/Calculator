@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My simple Calculator</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        #s{
+    margin-top:100px;
+    background-color: aquamarine;
+    text-align: center;
+    width: 300px;
+    border: 2px solid black;
+}
+    </style>
+</head>
+<body>
+    <center>
+    <script src="./script.js"></script>
+    <div align="center" id="s">
+        <h2>My simple Calculator</h2>
+    
+            <label><h4>Enter first Number:</h4></label>
+            <input text="Number" id="value1">
+            <label><h4>Enter second Number:</h4></label>
+            <input text="Number" id="value2"><br><br>
+            <!-- <label>Addition</label><br> -->
+
+            <button onclick="add()">Add(+)</button>
+            
+            <button onclick="sub()">Sub(-)</button>
+            <button onclick="mul()">Mul(*)</button>
+            <button onclick="div()">Div(/)</button>
+            <p id="A1">The answer is:</p>
+    </div>
+</center>
+</body>
+</html>
